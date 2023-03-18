@@ -1,0 +1,19 @@
+WIDTH, HEIGHT = 800, 600
+
+# set road dimensions
+ROAD_WIDTH, ROAD_HEIGHT = WIDTH, 100
+ROAD_X, ROAD_Y = 0, HEIGHT // 2 - ROAD_HEIGHT // 2
+
+# set car dimensions
+CAR_WIDTH, CAR_HEIGHT = 20, 10
+MAX_CARS = 5
+MIN_DISTANCE = 50
+
+# set charger dimensions
+CHARGER_WIDTH, CHARGER_HEIGHT = 100, 10
+CHARGER_X, CHARGER_Y = WIDTH // 2 - (CHARGER_WIDTH / 2), HEIGHT // 2 - ROAD_HEIGHT // 2 + 30
+
+# set colors
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+BACKGROUND = (121, 126, 128)
