@@ -57,5 +57,5 @@ options:
 ## Simulation
 Doppelklick auf `simulation.py` oder
 ```bash
-python3 main.py
+python3 simulation.py
 ```
