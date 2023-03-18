@@ -12,7 +12,6 @@ def calculate(dataset, column):
     fitter.fit()
 
     best_dist = fitter.get_best()
-    print('Beste Verteilung: ' + str(best_dist))
     name = list(best_dist.keys())[0]
     params = list(best_dist.values())[0]
 
@@ -24,7 +23,7 @@ def calculate(dataset, column):
     plt.xlim(min(0, min(fitter.x)), max(fitter.x))
     plt.plot(x, y)
     plt.title(name)
-    print(name, ': ', params)
+    print('Beste Verteilung: ', name, ': ', params)
     plt.show()
 
 
